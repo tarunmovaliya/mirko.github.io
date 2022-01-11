@@ -1,0 +1,344 @@
+:root {
+    --primary: #1c262f;
+    --primary-light: #212d37;
+    --secondary: #0ee951;
+    --tertiary: #00dabf;
+    --gradient: linear-gradient(to right, #0ee951, #00dabf);
+}
+
+.navbar{  
+  background-color: black;
+}
+
+.navbar b{
+    font-size:30px;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    top: 51px;
+   
+}
+
+.social-icons .fa-stack  a i{
+     background-color: green !important;
+     color: white;
+     border-radius: 50%;
+     transition: all 0.5s;
+}
+
+.social-icons .fa-stack a i:hover{
+     background-color: white !important;
+     color: black;
+}
+
+.home{
+	background-image: url(../images/home.jpg);
+    background-repeat: no-repeat !important;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.home h1{
+	font-family: poppins;
+	font-size: 60px;
+	padding-top: 100px;
+}
+
+.hometext {
+	background: -webkit-gradient( linear, left top, left bottom, from(#0ee951), to(#00dabf) );
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-lg {
+    font-size: 1.33333em;
+    line-height: .75em;
+    vertical-align: -.0667em;
+}
+
+.para-light {
+    opacity: 0.7;
+}
+
+.home i{
+	background: -webkit-gradient( linear, left top, left bottom, from(#0ee951), to(#00dabf) );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 7px 0;
+
+}
+
+.btn{
+   padding: 10px 30px !important;
+   color: white !important;
+   border-radius: 0 !important;
+   border-width: 2px !important;
+   margin-bottom: 30px !important;
+   box-shadow: none !important;
+}
+
+.btn:hover{
+    background-color: black;
+}
+
+
+
+.information .container-fluid .row div:first-child {
+    background-color: var(--primary);
+}
+
+.information .container-fluid .row div:nth-child(2) {
+    background-color: var(--primary-light);
+}
+
+.information i{
+	background: -webkit-gradient( linear, left top, left bottom, from(#0ee951), to(#00dabf) );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about{
+	background-color: var(--primary-light);
+}
+
+
+.services{
+	background-color: var(--primary);
+}
+
+.services .card {
+    padding: 20px;
+    border-radius: 0;
+    border: 2px solid white;
+}
+
+.services .card i{
+	background: -webkit-gradient( linear, left top, left bottom, from(#0ee951), to(#00dabf) );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.plans{
+	background-color: var(--primary-light);
+}
+
+.plans .card {
+    padding: 20px;
+    border: 2px solid white;
+}
+
+
+.work{
+	background-color: var(--primary);
+	border-bottom: 1px solid white;
+}
+
+.work i{
+	background: -webkit-gradient( linear, left top, left bottom, from(#0ee951), to(#00dabf) );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.testimonials{
+	background-color: var(--primary);
+}
+
+.avtar{
+    border-radius: 50%;
+}
+
+.testimonial-card{
+	border: 10px solid;
+    border-image-slice: 1;
+    border-width: 3px;
+    border-image-source: var(--gradient);
+}
+
+.owl-theme .owl-dots .owl-dot span{
+	margin-top: 30px;
+}
+
+.newsletter{
+	background-color: var(--primary-light);
+}
+
+.btn-secondary {
+    color: black;
+    border-width: 2px;
+    padding: 10px 30px;
+    border-image-slice: 1;	
+    background: transparent !important;
+    border-image-source: var(--gradient);
+}
+
+.btn-secondary:hover{
+    background-image: var(--gradient) !important;
+
+}
+
+.work .counter{
+    font-size: 20px;
+}
+
+.contact{
+    background-color: var(--primary);
+}
+
+.location{
+    background-color: var(--primary-light);
+}
+
+.location i{
+    background: -webkit-gradient( linear, left top, left bottom, from(#0ee951), to(#00dabf) );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.align-items-center {
+    align-items: center!important;
+}
+
+.footer{
+    background-color: var(--primary);
+}
+
+.footer i:hover{
+     background: -webkit-gradient( linear, left top, left bottom, from(#0ee951), to(#00dabf) );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:hover{
+     background: -webkit-gradient( linear, left top, left bottom, from(#0ee951), to(#00dabf) );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.copy{
+    background-color: black;
+}
+
+.copy i{
+    cursor: pointer;
+}
+
+.copy i:hover{
+     background: -webkit-gradient( linear, left top, left bottom, from(#0ee951), to(#00dabf) );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.ex-header {
+    padding-top: 8.5rem;
+    padding-bottom: 4rem;
+    background-color: var(--primary-light);
+}
+
+.ex-header h1{
+    font-size: 50px;
+}
+
+.article{
+    background-image: url(../images/apple.jpg) !important;
+    background-attachment: fixed;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+}
+
+.article1{
+    background-image: url(../images/apple2.jpg) !important;
+    background-attachment: fixed;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+}
+.back{
+    background-color:#f7f9fd;
+    font-family: 'Acme', sans-serif;
+}
+
+.back1{
+    background-color: #f7f9fd !important;
+}       
+
+
+.ex-cards-1 .card {
+    border: 2px solid black;
+}
+
+.ex-cards-1 .card .fa-stack-1x {
+    width: 32px;
+    color: white;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+.ex-basic-1 a{
+    color: black !important;
+}
+
+.ex-basic-1 a:hover{
+     color: white !important;
+}
+
+.ex-basic-1{
+    text-align: justify;
+}
+
+.text-box{
+    background-color: white;
+}
+
+
+.ex-basic-1 .list-unstyled .fas {
+    font-size: 6px;
+    line-height: 26px;
+}
+
+.back2{
+    background-color: #77808f;
+}
+
+.back3{
+    background-color: #838d9e;
+}
+
+.back4{
+    background-color: #c5cfe3;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+.back5{
+    background-color: #a2dbd5;
+}
+
+.back6{
+    background-color: #96e3e0;
+}
+
+.back7{
+    background-color: #9ef0ed;
+}
+.back8{
+    background-color: #b2dbd9;
+}
+
+.pri{
+    background-image: url(../images/privacy1.jpg) !important;
+    background-attachment: fixed;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+}
+
+.ter{
+    background-image: url(../images/terms1.png) !important;
+    background-attachment: fixed;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+}
